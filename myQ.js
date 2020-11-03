@@ -31,3 +31,7 @@ class myQ {
     return this.items;
   }
 }
+
+module.exports = {
+  myQ,
+};
