@@ -1,11 +1,13 @@
+// Importing and setting up myQ
 let importedQ = require("./myQ.js");
 const myQ = new importedQ.myQ();
 
 // Demonstrating functions
-// myQ.printQ("No items in Queue");
+myQ.printQ("No items in Queue");
 console.log(myQ.dQ("No items in queue"));
 console.log(myQ.front("No items in queue"));
 console.log(myQ.isEmpty());
+console.log(myQ.length());
 
 // Actual Example
 console.log("\n \n People waiting for Ice Cream");
@@ -18,6 +20,8 @@ myQ.enQ("Toby");
 myQ.enQ("Tintin");
 myQ.enQ("Frank");
 myQ.enQ("Joe");
+// length
+console.log(myQ.length());
 // printQ
 console.log(myQ.printQ());
 // front
@@ -28,3 +32,4 @@ console.log(myQ.isEmpty("No people in queue"));
 console.log(myQ.dQ("No people in queue"));
 
 console.log(myQ.printQ());
+console.log(myQ.length());
