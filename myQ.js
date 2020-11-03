@@ -30,4 +30,8 @@ class myQ {
   printQ() {
     return this.items;
   }
+
+  length() {
+    return this.items.length();
+  }
 }
