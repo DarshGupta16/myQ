@@ -11,7 +11,15 @@ class myQ {
     if (this.items.length == 0) {
       return error;
     } else {
-      this.items.shift();
+      return this.items.shift();
+    }
+  }
+
+  front(error = "Error: No items in Queue") {
+    if (this.items.length == 0) {
+      return error;
+    } else {
+      return this.items[0];
     }
   }
 }
