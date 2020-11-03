@@ -1,0 +1,9 @@
+{
+  "name": "myQ",
+  "version": "1.0.0",
+  "description": "The awesome JS library for queues! :D",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Darsh Gupta",
+  "license": "ISC"
+}
