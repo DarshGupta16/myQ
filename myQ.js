@@ -36,7 +36,7 @@ class myQ {
   }
 
   length() {
-    return this.items.length();
+    return this.items.length;
   }
 }
 
