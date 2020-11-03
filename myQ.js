@@ -22,4 +22,8 @@ class myQ {
       return this.items[0];
     }
   }
+
+  isEmpty() {
+    return this.items.length == 0;
+  }
 }
