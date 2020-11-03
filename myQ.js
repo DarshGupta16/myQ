@@ -39,3 +39,7 @@ class myQ {
     return this.items.length();
   }
 }
+
+module.exports = {
+  myQ,
+};

@@ -1,5 +1,8 @@
+let importedQ = require("./myQ.js");
+const myQ = new importedQ.myQ();
+
 // Demonstrating functions
-console.log(myQ.printQ());
+// myQ.printQ("No items in Queue");
 console.log(myQ.dQ("No items in queue"));
 console.log(myQ.front("No items in queue"));
 console.log(myQ.isEmpty());
